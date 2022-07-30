@@ -118,7 +118,11 @@ var AutoTyping = (function (e) {
   },
 ]).default;
 
-const exampleText = ["Developer", "Designer", "Author"];
+const exampleText = [
+  "Photographer",
+  "Photo Researcher",
+  "Wildlife Photoshooter",
+];
 const exampleTyping = new AutoTyping("#text", exampleText, {
   typeSpeed: 70,
   deleteSpeed: 70,
